@@ -20,7 +20,7 @@
 1. **Logistic Regression**: High baseline accuracy (91.95%) and good ROC-AUC (0.7556).
 2. **Decision Tree Classifier**: Fast execution and comparable accuracy (91.62%).
 
-## 📝 Challenges Faced & Techniques Used
+## Challenges Faced & Techniques Used
 - **[span_16](start_span)Memory Management**: Handled large-scale data by using **10% Random Sampling** for visualization to prevent system freezing[span_16](end_span).
 - **[span_17](start_span)[span_18](start_span)Data Complexity**: Managed complex one-to-many relationships by implementing **Groupby Aggregation**[span_17](end_span)[span_18](end_span).
 - **[span_19](start_span)[span_20](start_span)Class Imbalance**: Addressed the challenge where only ~8% of users were defaulters by evaluating models using ROC-AUC scores[span_19](end_span)[span_20](end_span).
